@@ -1,0 +1,469 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('kd.jpg'); /* Replace with your actual image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center;
+    color: #fff; /* White text for better contrast */
+}
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .container h1{
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: block;
+  }
+  
+  .logo img {
+    max-height: 100px; /* Increased logo size */
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9c0303; /* Blue background for both buttons */
+    color: #fff; /* White text for both buttons */
+    cursor: pointer;
+  }
+  
+  .search-button {
+    margin-right: 10px; /* Maintain spacing between buttons */
+  }
+  /* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space content between image and text */
+    align-items: center; /* Center content vertically */
+    flex-direction: column;
+  }
+  
+  .image-container {
+    flex: 1; /* Allow image to take up available space */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .content {
+    flex: 1; /* Allow content to take up available space */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c00404;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .quote-section {
+    text-align: center;
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 200px; /* Adjust image size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .quote-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .quote-text p:first-child {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .quote-text p:last-child {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  .course-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .course-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .course-section p {
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b30404; /* Blue background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .course-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .course-card {
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 5px;
+  }
+  
+  .course-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .course-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .course-card {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 5px;
+  }
+  
+  .course-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .course-card h3,
+  .course-card h4 {
+    margin-bottom: 5px;
+  }
+  
+  .available {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #00c853; /* Green background */
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
+
+  }
+  .mindfulness-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .mindfulness-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .mindfulness-section p {
+    margin-bottom: 30px;
+  }
+  
+  .image-container {
+    text-align: center; /* Center the image */
+    margin-bottom: 30px;
+  }
+  
+  .image-container img {
+    max-width: 500px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .steps {
+    margin-bottom: 30px;
+  }
+  
+  .steps h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .steps ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .steps li {
+    margin-bottom: 15px;
+  }
+  
+  .learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #940000; /* Blue background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .harvard-reads {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .harvard-reads h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .explore-all {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8a0000; /* Blue background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .book-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .book-card {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .book-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .book-card h3 {
+    margin-bottom: 5px;
+  }
+  
+  .explore-picks {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #790000; /* Blue background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .health-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .health-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .health-section p {
+    margin-bottom: 30px;
+  }
+  
+  .health-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .exercise-options {
+    display: flex;
+    flex-wrap: wrap; /* Allow options to wrap to multiple rows */
+    justify-content: space-between;
+  }
+  
+  .exercise-option {
+    width: 45%; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .exercise-option h4 {
+    margin-bottom: 10px;
+  }
+  
+  .learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #790000; /* Blue background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .related-topics {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .section-title {
+    margin-bottom: 20px;
+  }
+  
+  .section-title h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .section-title p {
+    font-size: 1.2rem;
+  }
+  
+  .related-topics-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .topic {
+    margin-bottom: 15px;
+  }
+  
+  .topic h3 {
+    font-size: 1.1rem;
+  }
+  
+  hr {
+    border: 1px solid #ccc; /* Adjust color as needed */
+    width: 80%; /* Adjust width as needed */
+    margin-top: 5px;
+  }
+  .harvard-footer {
+    background-color: #000; /* Background color */
+    color: #fff; /* Text color */
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Space columns evenly */
+  }
+  
+  .footer-column {
+    width: 30%; /* Adjust width as needed */
+  }
+  
+  .footer-column h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo-container img {
+    max-width: 150px; /* Adjust logo size as needed */
+  }
+  
+  .footer-bottom p {
+    color: #ccc; /* Light gray color for copyright text */
+    font-size: 0.8em;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin: 0 10px; /* Spacing between icons */
+  }
+  
+  /* Add CSS for font awesome icons (if using) */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+ 
